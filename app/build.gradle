@@ -1,9 +1,9 @@
 apply plugin: 'com.android.application'
 
 android {
-    ndkVersion "23.2.8568313"
-
+    ndkVersion '25.2.9519653'
     compileSdk 33
+
 
     defaultConfig {
         minSdk 16
@@ -127,6 +127,7 @@ android {
             path "src/main/jni/Android.mk"
         }
     }
+    buildToolsVersion '33.0.1'
 }
 
 dependencies {
